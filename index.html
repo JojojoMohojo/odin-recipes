@@ -3,12 +3,70 @@
 <head>
     <meta charset="utf-8">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Odin Recipes</h1>
-<ul>
-    <li><a href="recipes/pork-tenderloin.html">Marinated Pork Tenderloin</a></li>
-    <li><a href="recipes/croque-madame.html">Croque Madame</a></li>
-    <li><a href="recipes/buttered-noodles.html">Buttered Noodles</a></li>
+    <div class="card-row">
+        <span class="card" id="top-recipes">
+            <h2 class="card-title">Top Recipes</h2>
+            <div class="card-content">
+                <p class="recipe-title"><a href="recipes/pork-tenderloin.html" class="recipes">Marinated Pork Tenderloin</a></p>
+                <img src="images/pork-tenderloin.jpg" alt="Pork tenderloin" id="pork-tend">
+                <p class="recipe-title"><a href="recipes/croque-madame.html" class="recipes">Croque Madame</a></p>
+                <img src="images/croque-madame.jpg" alt="Croque Madame" id="croque">
+                <p class="recipe-title"><a href="recipes/buttered-noodles.html" class="recipes">Buttered Noodles</a></p>
+                <img src="images/buttered-noodles.jpg" alt="buttered-noodles" id="noodles">
+            </div>
+        </span>
+        <span class="card" id="RoTD">
+            <h2 class="card-title">Recipe of the Day</h2>
+            <div class="card-content">
+                <p class="recipe-title"><a href="images/balls-explosion.gif">Big Saucy Balls</a></p>
+                <img src="images/spag-balls.png" alt="Spaghetti and meatballs" id="spag-balls">
+                <p class="desc">Indulge in the savory delight of 'Big Saucy Balls,' a classic spaghetti and meatballs recipe that brings together perfectly seasoned beef and pork meatballs nestled in a bed of al dente spaghetti. </p>
+                <p class="desc">Simmered in a rich, flavorful tomato sauce, this comforting dish is a timeless favorite that promises a burst of Italian-inspired goodness with every bite.</p>
+            </div>
+        </span>
+        <span class="card" id="all-recipes">
+            <h2 class="card-title">All Recipes</h2>
+            <div class="card-content" id="az-area">
+                <span>
+                    <ul>
+                        <li>A</li>
+                        <li>B</li>
+                        <li>C</li>
+                        <li>D</li>
+                        <li>E</li>
+                        <li>F</li>
+                        <li>G</li>
+                        <li>H</li>
+                        <li>I</li>
+                        <li>J</li>
+                        <li>K</li>
+                        <li>L</li>
+                        <li>M</li>
+                    </ul>
+                </span>
+                <span>
+                    <ul>
+                        <li>N</li>
+                        <li>O</li>
+                        <li>P</li>
+                        <li>Q</li>
+                        <li>R</li>
+                        <li>S</li>
+                        <li>T</li>
+                        <li>U</li>
+                        <li>V</li>
+                        <li>W</li>
+                        <li>X</li>
+                        <li>Y</li>
+                        <li>Z</li>
+                    </ul>
+                </span>
+            </div>
+        </span>
+    </div>
 </body>
 </html>
